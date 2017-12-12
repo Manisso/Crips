@@ -26,4 +26,4 @@ A simple TCP Port Scan to quickly determine the status of an Internet facing ser
 # Reverse IP Lookup
 Discover web hosts sharing an IP address with a reverse IP lookup.
 # INSTALL & UPDATE
-To Install the Tools Directly In The System And Get New Update Directly USing Terminal
+To install the tools directly in the system and get new update directly using terminal
