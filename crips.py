@@ -64,7 +64,7 @@ def  select():
 	  print("This tool is only available for Linux and similar systems  ")
 	  os.system("git clone https://github.com/Manisso/Crips.git")
 	  os.system("cd Crips && sudo bash ./update.sh")
-	  quit()
+	  os.system("crips")
     elif choice == 2:
       d3 = raw_input('Enter IP Or Domain : ')
       os.system("clear")
