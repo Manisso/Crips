@@ -30,5 +30,32 @@ A simple TCP Port Scan to quickly determine the status of an Internet facing ser
 Discover web hosts sharing an IP address with a reverse IP lookup.
 # INSTALL & UPDATE
 To install the tools directly in the system and get new update directly using terminal
+# Installation [Linux](https://fr.wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
+[✓] git clone https://github.com/Manisso/Crips.git
+
+[✓] cd Crips && python Crips.py
+
+[◉] 0 : INSTALL & UPDATE
+
+[◉] -> 0
+
+[✓] press 0 
+
+[✓] Congratulation Crips is Installed !
+
+# Installation [Windows](https://fr.wikipedia.org/wiki/Microsoft_Windows)[![alt tag](http://icons.iconarchive.com/icons/yootheme/social-bookmark/32/social-windows-button-icon.png)](https://fr.wikipedia.org/wiki/Microsoft_Windows)
+
+[✔] Download [![python](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://www.python.org/downloads/release/python-2714/)
+
+[✓] Download [Crips](https://github.com/Manisso/Crips/archive/master.zip)
+
+[✓] Extract [Crips](https://github.com/Manisso/Crips/archive/master.zip) into Desktop
+
+[◉]Open CMD and type the following commands:
+
+[✓] $cd Desktop/Crips-master/
+
+[✓] $python crips.py
+
 # Fan Art
 ![ART](https://media.giphy.com/media/3ohs7IdEfvc5114C5y/giphy.gif)
