@@ -157,8 +157,8 @@ ______ _   _ _____   _                 _
 	  os.system("wget http://api.hackertarget.com/reverseiplookup/?q=" + d3 )
 	  os.system("clear")
 	  os.system("curl http://api.hackertarget.com/reverseiplookup/?q=" + d3 )
-	  print("File Saved On")
-	  os.system("pwd")
+	  print("")
+	  os.system("echo file Saved On : && pwd")
 	  print("")
 	  quit()
   except(KeyboardInterrupt):
