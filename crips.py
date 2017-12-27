@@ -7,7 +7,7 @@ import os
 import sys
 
 os.system("clear && clear && clear")
-logo = '''\033[0m \033[1m 
+logo = '''\033[0m 
    _|_|_|            _|                      
  _|        _|  _|_|      _|_|_|      _|_|_|  
  _|        _|_|      _|  _|    _|  _|_|      
@@ -19,7 +19,7 @@ logo = '''\033[0m \033[1m
      }----{+}  fb.me/dzmanisso {+}----{
        }--{+} Greetz To IcoDz  {+}--{                               
      '''
-menu = '''\033[0m \033[1m
+menu = '''\033[0m
     {1}--Whois lookup
     {2}--Traceroute
     {3}--DNS Lookup
@@ -158,8 +158,10 @@ ______ _   _ _____   _                 _
 	  os.system("clear")
 	  os.system("curl http://api.hackertarget.com/reverseiplookup/?q=" + d3 )
 	  print("")
-	  os.system("echo file Saved On : && pwd")
-	  print("")
+	  print("\033[91m\033[1mFile Saved On : ")
+	  os.system("pwd")
+	  print("File : index.html?q=" +d3)
+	  print("\033[0m")
 	  quit()
   except(KeyboardInterrupt):
     print ""
