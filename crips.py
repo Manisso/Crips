@@ -154,7 +154,11 @@ ______ _   _ _____   _                 _
 |___|_|    |____\___\___|_\_\ \_,_| .__/  
                                   |_|     
 	  """)
+	  os.system("wget http://api.hackertarget.com/reverseiplookup/?q=" + d3 )
+	  os.system("clear")
 	  os.system("curl http://api.hackertarget.com/reverseiplookup/?q=" + d3 )
+	  print("File Saved On")
+	  os.system("pwd")
 	  print("")
 	  quit()
   except(KeyboardInterrupt):
