@@ -31,7 +31,7 @@ menu = '''\033[0m
     {99}-Exit                                                                                                                   
  '''
 print logo
-d3
+print(""),d3
 print menu
 def quit():
             con = raw_input('Continue [Y/n] -> ')
