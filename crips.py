@@ -5,7 +5,7 @@
 
 import os
 import sys
-
+d3=os.system("curl http://ipinfo.io/ip")
 os.system("clear && clear && clear")
 logo = '''\033[0m 
    _|_|_|            _|                      
@@ -31,8 +31,8 @@ menu = '''\033[0m
     {99}-Exit                                                                                                                   
  '''
 print logo
+d3
 print menu
-
 def quit():
             con = raw_input('Continue [Y/n] -> ')
             if con[0].upper() == 'N':
